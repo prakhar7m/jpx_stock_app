@@ -1,0 +1,343 @@
+<!-- Code from d3-graph-gallery.com -->
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v6.js"></script>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Function for radial charts -->
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
+<body>
+  <form action="index_eg.html">
+    <button
+      role="button"
+      type="submit"
+      id="btn-3"
+      class="btn btn-3"
+      onclick="index_eg.html"
+    >
+      Player Statistics
+    </button>
+  </form>
+  <div>
+    <span class="top right"></span>
+    <span class="top left"></span>
+    <h1>UEFA CHAMPIONS LEAGUE</h1>
+    <span class="bottom right"></span>
+    <span class="bottom left"></span>
+  </div>
+  <div class="btn-container">
+    <select id="team-dropdown"></select>
+    <select id="team-dropdown-2"></select>
+  </div>
+
+  <div class="logo-container">
+    <div id="team1-logo"></div>
+
+    <div id="team2-logo"></div>
+  </div>
+  <div class="head2head"><div id="#h2h-label"></div></div>
+  <select id="selectButton"></select>
+  <!-- Create a div where the graph will take place -->
+
+  <!-- <svg class="visualization"></svg> -->
+
+  <script>
+    var team1;
+    var team2;
+    const dropdown = d3.select("#team-dropdown");
+    const logoContainer = d3.select("#team1-logo");
+    const teams = [
+      { name: "Real Madrid" },
+      { name: "Chelsea" },
+      { name: "Manchester City" },
+    ];
+    const logos = {
+      "Real Madrid": "rmfc.svg",
+      Chelsea: "chelsea.png",
+      "Manchester City": "mcfc.svg",
+    };
+    dropdown.append("option").text("Select a team").attr("value", "");
+    dropdown
+      .selectAll("myOptions")
+      .data(teams)
+      .enter()
+      .append("option")
+      .text(function (d) {
+        return d.name;
+      })
+      .attr("value", function (d) {
+        return d.name;
+      });
+
+    dropdown.on("change", function () {
+      const selectedTeam = teams.find((d) => d.name === this.value);
+      updateLogo(selectedTeam.name);
+      team1 = selectedTeam.name;
+    });
+
+    function updateLogo(teamName) {
+      // clear any existing logo
+      logoContainer.html("");
+
+      // get the path to the selected team's logo
+      const logoPath = logos[teamName];
+      console.log(logoPath);
+      // append the logo to the logo container
+      logoContainer
+        .append("img")
+        // .append("svg")
+        .attr("src", logoPath)
+        .attr("alt", `${teamName} logo`)
+        .attr("height", 200)
+        .attr("width", 200);
+
+      team1 = teamName;
+
+      // redraw the visualization with the updated data
+      drawViz(team1, team2);
+    }
+
+    const logoContainer2 = d3.select("#team2-logo");
+    const dropdown2 = d3.select("#team-dropdown-2");
+    dropdown2.append("option").text("Select a team").attr("value", "");
+    dropdown2
+      .selectAll("myOptions")
+      .data(teams)
+      .enter()
+      .append("option")
+      .text(function (d) {
+        return d.name;
+      })
+      .attr("value", function (d) {
+        return d.name;
+      });
+    // add an event listener to the dropdown menu
+    dropdown2.on("change", function () {
+      // get the selected team object
+      const selectedTeam2 = teams.find((d) => d.name === this.value);
+      team2 = selectedTeam2.name;
+      updateLogo2(selectedTeam2.name);
+    });
+    function updateLogo2(teamName) {
+      // clear any existing logo
+      logoContainer2.html("");
+
+      // get the path to the selected team's logo
+      const logoPath = logos[teamName];
+      console.log(logoPath);
+      // append the logo to the logo container
+      logoContainer2
+        .append("img")
+        // .append("svg")
+        .attr("src", logoPath)
+        .attr("alt", `${teamName} logo`)
+        .attr("height", 200)
+        .attr("width", 200);
+
+      // update the team2 variable
+      team2 = teamName;
+
+      // redraw the visualization with the updated data
+      drawViz(team1, team2);
+    }
+
+    function drawViz(team1, team2) {
+      d3.json("team_stats.json").then(function (data) {
+        d3.select(".head2head").selectAll("svg").remove();
+        const team2Data = data[team1][team2];
+        const team1Data = data[team2][team1];
+
+        // Convert the object to an array
+        const dataArray = Object.entries(team1Data);
+        const dataArray2 = Object.entries(team2Data);
+        console.log(dataArray2);
+        console.log(dataArray);
+        // Sort the data in descending order by value
+
+        // Set the dimensions of the SVG element
+        const margin = { top: 20, right: 20, bottom: 30, left: 60 };
+        const width = 500 - margin.left - margin.right;
+        const height = 300 - margin.top - margin.bottom;
+
+        const svg = d3
+          .select(".head2head")
+          .append("svg")
+          .attr("width", 1000)
+          .attr("height", 800);
+
+        // Create an array of labels
+        const labels = [
+          "MATCHES",
+          "HOME WINS",
+          "HOME LOSSES",
+          "AWAY WINS",
+          "AWAY LOSSES",
+          "GOALS SCORED",
+          "GOALS CONCEDED",
+        ];
+
+        // Create a group element for the labels
+        const labelGroup = svg
+          .append("g")
+          .attr("transform", `translate(${svg.attr("width") / 2}, 50)`);
+
+        const y = d3
+          .scaleBand()
+          .range([height, 0])
+          .domain(dataArray, (d) => d[0]);
+
+        const x = d3
+          .scaleLinear()
+          .range([0, width])
+          .domain([0, d3.max(dataArray, (d) => d[1])]);
+
+        const y2 = d3
+          .scaleBand()
+          .range([height, 0])
+          .domain(dataArray2, (d) => d[0]);
+
+        const x2 = d3
+          .scaleLinear()
+          .range([0, width])
+          .domain([0, d3.max(dataArray2, (d) => d[1])]);
+
+        // Create a group element for each label
+        // Combine the labels from both arrays
+        const allLabels = [
+          ...new Set([
+            ...dataArray.map((d) => d[0]),
+            ...dataArray2.map((d) => d[0]),
+          ]),
+        ];
+
+        // Create a new array of objects with the format [label, value1, value2]
+        const combinedData = allLabels.map((label) => {
+          const data1 = dataArray.find((d) => d[0] === label);
+          const data2 = dataArray2.find((d) => d[0] === label);
+          return [label, data1 ? data1[1] : 0, data2 ? data2[1] : 0];
+        });
+
+        // Create a group element for each label
+        const labelElements = labelGroup
+          .selectAll("g")
+          .data(combinedData)
+          .enter()
+          .append("g")
+          .attr("id", "labels-mid")
+          .attr("transform", (d, i) => `translate(0, ${i * 75})`);
+
+        // Append a rectangle to each group element for dataArray1
+        labelElements
+          .filter((d) => d[1])
+          .append("rect")
+          .attr("x", 0)
+          .attr("y", -20)
+          .attr("width", (d) => x(d[1]))
+          .attr("height", 40)
+          .attr("fill", "red");
+
+        // Append the values to each group element
+        labelElements
+          .filter((d) => d[1])
+          .append("text")
+          .text((d) => d[1])
+          .attr("text-anchor", "end")
+          .attr("dominant-baseline", "middle")
+          .attr("font-size", "20px")
+          .attr("fill", "white")
+          .attr("x", (d) => x(d[1]) + 20)
+          .attr("y", 0);
+
+        // Append a rectangle to each group element for dataArray2
+        labelElements
+          .filter((d) => d[2])
+          .append("rect")
+          .attr("x", (d) => -x2(d[2]))
+          .attr("y", -20)
+          .attr("width", (d) => x2(d[2]))
+          .attr("height", 40)
+          .attr("fill", "blue");
+
+        labelElements
+          .filter((d) => d[2])
+          .append("text")
+          .text((d) => d[2])
+          .attr("text-anchor", "end")
+          .attr("dominant-baseline", "middle")
+          .attr("font-size", "20px")
+          .attr("fill", "white")
+          .attr("x", (d) => -x2(d[2]) - 20)
+          .attr("y", 0);
+
+        // Append the middle rectangles to each group element
+        labelElements
+          .append("rect")
+          .attr("x", -75)
+          .attr("y", -20)
+          .attr("width", 150)
+          .attr("height", 40)
+          .style("stroke", "white")
+          .style("fill", "white");
+
+        // Append the text to each group element
+        labelElements
+          .append("text")
+          .text((d) => d[0])
+          .attr("text-anchor", "middle")
+          .attr("dominant-baseline", "middle")
+          .attr("font-size", "20px")
+          .attr("fill", "#00004a");
+      });
+    }
+    // const labelElements2 = labelGroup
+    //   .selectAll("g")
+    //   .data(dataArray2)
+    //   .enter()
+    //   .append("g")
+    //   .attr("id", "labels-mid")
+    //   .attr("transform", (d, i) => `translate(0, ${i * 75})`);
+    // labelElements2
+    //   .append("rect")
+    //   .attr("x", -75)
+    //   .attr("y", -20)
+    //   .attr("width", function (d) {
+    //     console.log(x2(d[1]));
+    //   })
+    //   .attr("height", 40)
+    //   .attr("fill", "white");
+    //     .selectAll("rect")
+    //     .data(dataArray)
+    //     .enter()
+    //     .append("rect")
+    //     .attr("x", 0)
+    //     .attr("y", (d) => y(d[0]))
+    //     .attr("width", (d) => x(d[1]))
+    //     .attr("height", y.bandwidth());
+
+    //   const y = d3.scaleBand().range([height, 0]).padding(0.1).domain(labels);
+    //   console.log(y);
+    // const x = d3
+    //   .scaleLinear()
+    //   .range([-75, width])
+    //   .domain([0, d3.max(dataArray, (d) => d[1])]);
+
+    // const svg = d3
+    //   .select(".head2head")
+    //   .append("svg")
+    //   .attr("width", width + margin.left + margin.right)
+    //   .attr("height", height + margin.top + margin.bottom)
+    //   .append("g")
+    //   .attr("transform", `translate(${margin.left},${margin.top})`);
+    // Append a rectangle for each data point
+  </script>
+</body>

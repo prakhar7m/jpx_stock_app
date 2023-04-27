@@ -1,0 +1,1201 @@
+{
+  "Sevilla": {
+    "RB Salzburg": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Wolfsburg": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Lille": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Young Boys": {
+    "Manchester Utd": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Atalanta": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Villarreal": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 6,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Chelsea": {
+    "Zenit": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Juventus": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Malmo": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Lille": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Real Madrid": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    }
+  },
+  "Villarreal": {
+    "Atalanta": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Manchester Utd": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Young Boys": {
+      "matches": 2,
+      "goals": 6,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Juventus": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Bayern Munich": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Liverpool": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Barcelona": {
+    "Bayern Munich": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 6,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Benfica": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Dynamo Kyiv": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    }
+  },
+  "Lille": {
+    "Wolfsburg": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "RB Salzburg": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Sevilla": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Chelsea": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Malmo": {
+    "Juventus": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Zenit": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Chelsea": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Dynamo Kyiv": {
+    "Benfica": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Bayern Munich": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 7,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Barcelona": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Sheriff Tiraspol": {
+    "Shakhtar": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Real Madrid": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Inter": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 6,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Besiktas": {
+    "Dortmund": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 7,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Ajax": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Sporting CP": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 8,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Sporting CP": {
+    "Ajax": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 9,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Dortmund": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Besiktas": {
+      "matches": 2,
+      "goals": 8,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Manchester City": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Manchester City": {
+    "RB Leipzig": {
+      "matches": 2,
+      "goals": 7,
+      "conceded": 5,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Paris S-G": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Club Brugge": {
+      "matches": 2,
+      "goals": 9,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Sporting CP": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 0,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Atletico Madrid": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Real Madrid": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 6,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    }
+  },
+  "Liverpool": {
+    "Milan": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Porto": {
+      "matches": 2,
+      "goals": 7,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Atletico Madrid": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Inter": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Benfica": {
+      "matches": 2,
+      "goals": 6,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Villarreal": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Real Madrid": {
+      "matches": 1,
+      "goals": 0,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 0
+    }
+  },
+  "Inter": {
+    "Real Madrid": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Shakhtar": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Sheriff Tiraspol": {
+      "matches": 2,
+      "goals": 6,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Liverpool": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    }
+  },
+  "Club Brugge": {
+    "Paris S-G": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "RB Leipzig": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 6,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Manchester City": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 9,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Atletico Madrid": {
+    "Porto": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Milan": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Liverpool": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Manchester Utd": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Manchester City": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 1,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "NaN": {},
+  "Ajax": {
+    "Sporting CP": {
+      "matches": 2,
+      "goals": 9,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Besiktas": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Dortmund": {
+      "matches": 2,
+      "goals": 7,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Benfica": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Shakhtar": {
+    "Sheriff Tiraspol": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Inter": {
+      "matches": 2,
+      "goals": 0,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Real Madrid": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 7,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Porto": {
+    "Atletico Madrid": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Liverpool": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 7,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Milan": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    }
+  },
+  "Real Madrid": {
+    "Inter": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Sheriff Tiraspol": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Shakhtar": {
+      "matches": 2,
+      "goals": 7,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Paris S-G": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Chelsea": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Manchester City": {
+      "matches": 2,
+      "goals": 6,
+      "conceded": 5,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Liverpool": {
+      "matches": 1,
+      "goals": 1,
+      "conceded": 0,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    }
+  },
+  "RB Leipzig": {
+    "Manchester City": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 7,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Club Brugge": {
+      "matches": 2,
+      "goals": 6,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Paris S-G": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Dortmund": {
+    "Besiktas": {
+      "matches": 2,
+      "goals": 7,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Sporting CP": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Ajax": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 7,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Paris S-G": {
+    "Club Brugge": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Manchester City": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "RB Leipzig": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 4,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Real Madrid": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    }
+  },
+  "Milan": {
+    "Liverpool": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Atletico Madrid": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Porto": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Atalanta": {
+    "Villarreal": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Young Boys": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Manchester Utd": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Zenit": {
+    "Chelsea": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Malmo": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Juventus": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 5,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Manchester Utd": {
+    "Young Boys": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Villarreal": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Atalanta": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 4,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Atletico Madrid": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Benfica": {
+    "Dynamo Kyiv": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Barcelona": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Bayern Munich": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 9,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Ajax": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 1,
+      "home_losses": 1,
+      "away_losses": 0
+    },
+    "Liverpool": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 6,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "RB Salzburg": {
+    "Sevilla": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Lille": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Wolfsburg": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 3,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Bayern Munich": {
+      "matches": 2,
+      "goals": 2,
+      "conceded": 8,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Juventus": {
+    "Malmo": {
+      "matches": 2,
+      "goals": 4,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Chelsea": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 4,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Zenit": {
+      "matches": 2,
+      "goals": 5,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Villarreal": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 4,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Bayern Munich": {
+    "Barcelona": {
+      "matches": 2,
+      "goals": 6,
+      "conceded": 0,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Dynamo Kyiv": {
+      "matches": 2,
+      "goals": 7,
+      "conceded": 1,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "Benfica": {
+      "matches": 2,
+      "goals": 9,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 1,
+      "home_losses": 0,
+      "away_losses": 0
+    },
+    "RB Salzburg": {
+      "matches": 2,
+      "goals": 8,
+      "conceded": 2,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    },
+    "Villarreal": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 2,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    }
+  },
+  "Wolfsburg": {
+    "Lille": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "Sevilla": {
+      "matches": 2,
+      "goals": 1,
+      "conceded": 3,
+      "home_wins": 0,
+      "away_wins": 0,
+      "home_losses": 1,
+      "away_losses": 1
+    },
+    "RB Salzburg": {
+      "matches": 2,
+      "goals": 3,
+      "conceded": 4,
+      "home_wins": 1,
+      "away_wins": 0,
+      "home_losses": 0,
+      "away_losses": 1
+    }
+  }
+}
